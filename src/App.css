@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+body{
+  background-color: darkgrey;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-delete{
+  height: px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.izquierda{
+  margin-top: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header{
+  background-color:rgb(153, 152, 152);
+  color: aliceblue;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+p{
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 10px;
+  color:black;
+  margin-left:600px; 
+
+}
+.izquierda{
+  display: flex;
+}
+footer {
+  background-color: black;
+  text-align: center;
+  font-family: sans-serif;
+  color: whitesmoke;
+  width: 100%;
+  bottom: 0;
+  position:fixed;
+}
+.nuevo{
+  background-color: darkgrey;
 }
 
-.App-link {
-  color: #61dafb;
+.App-content {
+  position: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 1350px;
+  background-color:rgb(153, 152, 152);
+  border-radius: 10px;
+  width: 1330px;
+}
+.libra{
+  height: 80px;
+  width: 200px;
+  padding: 10px;
+  margin-left: -450px;
+}
+img{
+  height: 80px;
+  width: 200px;
+  display: flex;
+  padding: 10px;
+  margin-left: 800px;
+}
+form input {
+  align-items: left;
+  border-radius: 5%;
+  display: flex;width: 200px;
+  height: 20px;
+  padding: 5px;
+  margin-left:600px; 
+}
+label{
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 10px;
+  color:black;
+  margin-left:600px; 
+  font-size: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form button {
+  text-align: left;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 70px;
+  margin-bottom: 10px;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  background-color: darkgreen;
+  height: 40px;
+  width: 100px;
+  margin-left:700px; 
 }
+button{
+  border-radius: 120px;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 550px;
+  padding: 2px;
+}
+
+
+
+
+  
+ 
+
+
+
+
+  
+
+ 
+ 
+  
+
+
+ 
+
+  
+  
